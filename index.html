@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: "Times New Roman", serif;
+            text-align: left;
+            padding: 20px;
+        }
+        header {
+            padding: 20px;
+        }
+        #about {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 20px;
+        }
+        #about img {
+            border: 3px solid #ffffff;
+            border-radius: 10px;
+            margin-left: 20px;
+            width: 200px;
+            height: auto;
+        }
+        #contact a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        #contact a:hover {
+            text-decoration: underline;
+        }
+        .contact-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .contact-info img {
+            width: 20px;
+            height: 20px;
+        }
+        .project {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .project img {
+            border: 3px solid #ffffff;
+            border-radius: 10px;
+            width: 200px;
+            height: auto;
+            margin-right: auto;
+        }
+        .project a {
+            display: block;
+            margin-top: 10px;
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hi! I'm Pooja Reshme K</h1>
+        <p>I am a 3rd-year B.Tech student specializing in Information Technology. As a future IT professional, I am calm, resourceful, and always eager to learn new skills. I actively seek opportunities to expand my knowledge and stay updated with the latest industry trends.</p>
+    </header>
+    
+    <section id="about">
+        <p>I am dedicated to work and progress, a creative thinker, and committed to achieving excellence.</p>
+        <img src="PoojaReshme.jpeg" alt="Pooja Reshme">
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Technical:</strong> Python, JavaScript, SQL</li>
+            <li><strong>Soft Skills:</strong> Problem-Solving, Leadership, Communication</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <div>
+                <h3>Recipe Sharing Platform</h3>
+                <p>A simple web project where users can comment, like, and share recipes. Feel free to check it out!</p>
+                <a href="https://recipe-sharing-platform-2h9o3c1lt-pooja-reshme-ks-projects.vercel.app/" target="_blank">View Project</a>
+            </div>
+            <img src="Project.jpeg" alt="Recipe Sharing Project">
+        </div>
+    </section>
+    
+    <section id="resume">
+        <h2>My Resume 📝</h2>
+        <a href="resume.pdf" download>Download Resume</a>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me 👇🏻</h2>
+        <div class="contact-info">
+            <img src="email-icon.png" alt="Email Icon">
+            <p>Email: <a href="mailto:poojareshme01@gmail.com">poojareshme01@gmail.com</a></p>
+        </div>
+        <div class="contact-info">
+            <img src="phone-icon.png" alt="Phone Icon">
+            <p>Phone: 123-456-7890</p>
+        </div>
+        <div class="contact-info">
+            <img src="github-icon.png" alt="GitHub Icon">
+            <p>GitHub: <a href="https://github.com/poojareshme" target="_blank">github.com/poojareshme</a></p>
+        </div>
+        <div class="contact-info">
+            <img src="linkedin-icon.png" alt="LinkedIn Icon">
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/poojareshme" target="_blank">linkedin.com/in/poojareshme</a></p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Pooja Reshme. All rights reserved.</p>
+    </footer>
+</body>
+</html>
